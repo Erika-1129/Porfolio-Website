@@ -6,7 +6,7 @@ html {
     font-size: 100%;
 }
 body {
-    background-image: url(/Users/takagierika/Desktop/Protfolio-Website/image/山桜.jpeg);
+    background-image: url();
 }
 h1 {
     font-size: 2rem;
@@ -29,4 +29,7 @@ p {
     line-height: 0.5;
     text-align: center;
     color: #333333;
+}
+ul {
+    list-style-type: none;
 }
