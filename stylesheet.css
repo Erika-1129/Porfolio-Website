@@ -1,13 +1,32 @@
 @charset "UTF-8";
 header {
-    background-color: #6ae7a1;
+
+}
+html {
+    font-size: 100%;
 }
 body {
-    background-color: #fffeee;
+    background-image: url(/Users/takagierika/Desktop/Protfolio-Website/image/山桜.jpeg);
 }
 h1 {
-    color: #0bd;
+    font-size: 2rem;
+    font-family: "Arial";s
+    text-align: center;
+    color: aliceblue;
+    background-color: #333333;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+    text-align: center;
 }
 p {
     font-size: 15px;
+    font-family: "Arial";
+    line-height: 0.5;
+    text-align: center;
+    color: #333333;
 }
