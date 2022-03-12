@@ -6,6 +6,7 @@ html {
     font-size: 100%;
 }
 body {
+    background-color: #f0dada;
     background-image: url(image/bg.png);
     background-repeat: no-repeat;
     background-position: center;
