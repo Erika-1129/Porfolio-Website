@@ -6,11 +6,14 @@ html {
     font-size: 100%;
 }
 body {
-    background-image: url();
+    background-image: url(image/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 h1 {
     font-size: 2rem;
-    font-family: "Arial";s
+    font-family: "Arial";
     text-align: center;
     color: aliceblue;
     background-color: #333333;
