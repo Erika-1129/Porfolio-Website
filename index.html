@@ -68,16 +68,24 @@
     </main>
 
     <!-- CONTACTメインコンテンツ -->
-    <main>
-        <h1>CONTACT</h1>
-        <p>Thank you for dropping by.</p>
-        <p>Please feel free to contact me if you have any questions or inquiries.</p>
-        <form action="" method="post" name="contact-form">
-            NAME: <input type="text">
-            EMAIL: <input type="email">
-            MESSAGE: <textarea name="message" placeholder="input message"></textarea>
-        </form>
-    </main>
+<div id="contact">
+    <h2 class="page-title">contact</h2>
+    <form action="#">
+        <div>
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="your-name">
+        </div>
+        <div>
+            <label for="email">E-MAILE ADDRESS</label>
+            <input type="email" id="email" name="your-email">
+        </div>
+        <div>
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="your-essage"></textarea>
+        </div>
+        <input type="submit" class="button" Value="SUBMIT">
+    </form>
+</div>
 </body>
 
 
