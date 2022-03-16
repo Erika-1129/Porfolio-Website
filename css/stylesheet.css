@@ -8,7 +8,7 @@ html {
 body {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
-    color: #432;
+    color: ##fbfdfb2;
 }
 a {
     text-decoration: none;
@@ -79,21 +79,87 @@ img {
     background: #0090aa;
 }
 
-/*　大きな背景画像 */
+/*　背景 */
 .big-bg {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 }
 #home {
-    background-image: url(../image/test.png);
+    background-image: linear-gradient(#fbfdfb, #020202);
     min-height: 100vh;
 }
+/*WORKs
+------------------------*/
+#works {
+    background-image: linear-gradient(#fbfdfb, #020202);
+    min-height: 100vh;
+}
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fl);
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+
+
+/*PLOFILE
+------------------------*/
+/*　日付の装飾 */
+.post-info {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+.post-date {
+    background: #020202;
+    border-radius: 50%;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+.post-date span {
+    font-size: 1rem;
+    border-top: 1px rgba(255,255,255,.5) solid;
+    padding-top: 6px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+/*　タイトル＆カテゴリーの装飾 */
+.post-title {
+    font-family: "Yu Mincho", "YuMincho", serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.post-title,
+.post-cat {
+    margin-left: 120px;
+}
+
+/*　記事部分 */
+article {
+    width: 55%;
+}
+article img {
+    margin-bottom: 20px;
+}
+article p {
+    margin-bottom: 1rem;
+}
+
 
 /*CONTACT
 ------------------------*/
 #contact {
-    background-image: linear-gradient(#c9ffbf, #ffafbd);
+    background-image: linear-gradient(#fbfdfb, #020202);
     min-height: 100vh;
 }
 /*　フォーム */
@@ -130,6 +196,8 @@ input[type="submit"] {
     line-height: 1;
     margin: 24px;
 }
+
+
 
 /* モバイル版
 ------------------------*/
