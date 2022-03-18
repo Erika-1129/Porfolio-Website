@@ -8,7 +8,7 @@ html {
 body {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
-    color: ##fbfdfb2;
+    color: #7c7c7c;
 }
 a {
     text-decoration: none;
@@ -152,6 +152,7 @@ img {
 .post-cat {
     margin-left: 120px;
 }
+
 
 /*　記事部分 */
 article {
